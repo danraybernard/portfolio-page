@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  background-color: #FFB532;
   font-family: Arial, sans-serif;
 }
 
@@ -11,11 +12,14 @@ html {
   padding: 0;
 }
 
+
+
 /* Inline our ul for our menu */
 ul {
   margin: 0;
   padding: 0;
-  list-style-type: none;
+  list-style: none;
+  min-width: 100%;
 }
 
 ul li { display: inline; margin: 0 .5rem; }
